@@ -1,0 +1,40 @@
+.dreams{
+  background-color: #fafafa;
+}
+.dream__block{
+  display: flex;
+  align-items:center;
+  gap: 392px;
+}
+.dreams__btn::after{
+  content:"";
+  background-repeat: no-repeat;
+  background-image: url(../img/cursor.svg);
+  width: 21px;
+  height: 21px;
+  display: inline-block;
+align-items:center;
+display: flex;
+}
+.dreams__btn{
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 182%;
+  color: white;
+  border-radius: 11px;
+  background-color: #717cff;
+  text-align: center;
+  gap: 36px;
+  display: flex;
+  align-items:center;
+  padding: 12px 34px;
+  width: 262px;
+
+}
+.dreams__title{
+  padding-top: 92px;
+  padding-bottom: 85px;
+font-weight: 700;
+font-size: 37px;
+color: #252525;
+}

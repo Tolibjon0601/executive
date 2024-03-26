@@ -1,0 +1,127 @@
+.university{
+padding-top: 98px;
+}
+.university__block__content{
+  // width: 949px;
+  text-align: center;
+}
+.university__title{
+font-weight: 700;
+font-size: 37px;
+line-height: 146%;
+letter-spacing: -0.01em;
+text-align: center;
+color:#373737;
+padding-bottom: 25px;
+}
+.university__text{
+font-weight: 500;
+font-size: 22px;
+line-height: 173%;
+text-align: center;
+color: #7d7d7d;
+padding-bottom: 100px;
+}
+.university__img__title::before{
+content:"";
+width: 76px;
+height: 76px;
+background-repeat: no-repeat;
+background-image: url(../img/date__img__1.svg);
+display: inline-block;
+}
+.university__block__img__box1{
+width: 540px;
+border: radius 15px;
+box-shadow: 0 0 77px 0 rgba(0, 0, 0, 0.06);
+}
+.university__img__title{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 154%;
+  color: #37474f;
+  align-items:center;
+  display: flex;
+  gap: 19px;
+  padding-top: 30px;
+}
+.university__img__text{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 175%;
+  color: rgba(55, 71, 79, 0.72);
+  padding-top: 28px;
+}
+.university__img__btn{
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: 0.03em;
+  color: #717CFF;
+  display: flex;
+  align-items:center;
+  gap: 16px;
+  padding-top: 26px;
+
+}
+.university__img__link{
+  display: flex;
+ gap: 152px;
+  align-items:center;
+  margin-bottom: 33px;
+}
+.university__img__btn::after{
+  content:"";
+  width: 25px;
+  height: 25px;
+display: inline-block;
+background-image: url(../img/cursor.svg);
+background-repeat: no-repeat;
+
+}
+
+.university__block__img__content{
+  padding-left: 31px;
+}
+.university__img__title__1::before{
+  content:"";
+  width: 76px;
+  height: 76px;
+  background-repeat: no-repeat;
+  background-image: url(../img/date__img__2.svg);
+  display: inline-block;
+  }
+
+  .university__img__title__1{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 154%;
+    color: #37474f;
+    padding-top: 29px;
+    display: flex;
+    align-items:center;
+    gap: 19px;
+
+  }
+  .university__block__img{
+    display: flex;
+    gap: 47px;
+  }
+  .university__block__btn__btn{
+width: 10px;
+height: 10px;
+border-radius:50%;
+background-color:#D5D5D5;
+  }
+.active{
+width: 14px;
+height: 14px;
+border-radius:50%;
+background-color: #6771E7;
+}
+.university__block__btn{
+display: flex;
+justify-content: center;
+align-items:center;
+gap: 21px;
+padding-top: 81px;
+}

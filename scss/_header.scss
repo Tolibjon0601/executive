@@ -1,0 +1,27 @@
+.main__header {
+  padding-top: 40px;
+}
+
+.main__header_block{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_list {
+  display: flex;
+  gap: 68px;
+}
+.header__link {
+  font-weight: 500;
+  font-size: 17px;
+  color: #373737;
+}
+.header_btn{
+font-weight: 500;
+font-size: 17px;
+text-align: center;
+color: #505050;
+padding: 9px 32px 13px 35px ;
+border: 2px solid #717CFF;
+border-radius: 11px;
+}

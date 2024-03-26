@@ -1,0 +1,41 @@
+.symbol{
+  background-color: #fafafa;
+}
+.symbol__title{
+  font-weight: 500;
+  font-size: 23px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  text-align: center;
+  color:#111;
+  opacity: 0.73;
+  padding-top: 55px;
+}
+.symbol__img{
+  display: flex;
+  gap: 74px;
+  padding-top: 94px;
+}
+.symbol__btn{
+width: 10px;
+height: 10px;
+border-radius:50%;
+ background-color:#D2D2D2;
+
+}
+.active{
+  width: 14px;
+  height: 14px;
+  border-radius:50%;
+  background-color: #717CFF;
+
+}
+.symbol__btns{
+  text-align: center;
+  padding-top: 104px;
+  align-items:center;
+  display: flex;
+  justify-content: center;
+  gap: 21px;
+  padding-bottom: 57px;
+}
